@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+Here is an example of how to edit a paraLine.xml file, in order to create your own front end app for the command line tool(s) of your choice.
+This example assumes that a fictional convertToJpg.exe command line tool converts .png files to .jpg, and also recompresses .jpg files.
+-->
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<appTitle>Brotpfli 1.2</appTitle>
+
+	<appLink text="what is it?" url="https://filemill.net/#brotpfli" />
+	
+	<logoPng>brotpfli.png</logoPng>
+
+	<defaultTargetFolder></defaultTargetFolder>
+  
+	<presets>
+  
+		<preset name="create .gz and .br files, default Zopfli settings" parallelisationLevel="0" exclude=".gz,.br" isDefault="true">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?15?24" output=".*.gz" overwrite="true" comment="Brotli 1.0.4, Zopfli 2016.02.11"/>
+			</supportedFiles>
+		</preset>
+  
+		<preset name="create .gz and .br files, 100 Zopfli iterations" exclude=".gz,.br">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?100?24" output=".*.gz" overwrite="true"/>
+			</supportedFiles>
+		</preset>
+  
+		<preset name="create .gz and .br files, 1000 (!) Zopfli iterations" exclude=".gz,.br">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?1000?24" output=".*.gz" overwrite="true"/>
+			</supportedFiles>
+		</preset>
+  
+		<preset name="create .gz files, default Zopfli settings" exclude=".gz,.br">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?15?off" output=".*.gz" overwrite="true"/>
+			</supportedFiles>
+		</preset>
+  
+		<preset name="create .gz files, 100 Zopfli iterations" exclude=".gz,.br">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?100?off" output=".*.gz" overwrite="true"/>
+			</supportedFiles>
+		</preset>
+  
+		<preset name="create .gz files, 1000 (!) Zopfli iterations" exclude=".gz,.br">
+	
+			<supportedFiles>
+	  
+				<inputFile extension=".*" command="Brotpfli.exe ?%inputFile%?1000?off" output=".*.gz" overwrite="true"/>
+			</supportedFiles>
+		</preset>
+	</presets>
+</settings>
+<!--
+Place your paraLine.xml file alongside paraLine.exe.
+Place your command line tool also near paraLine.exe (it may also be in a subfolder -bin in this example-).
+place a paraLine.png file also alongside the .exe: it will be used as both icon and main screen logo.
+
+Check their licence terms before redistributing command line tools alongside your front end app!
+You may optionally add a paraLine.txt file, and fill it with content that should be displayed if a command line tool is missing.
+That may prove usefull if you want your users to manually download some command line tools instead of redistributing them yourself.
+
+Use the resulting tool for yourself, or package the whole thing in a .zip or in an installer, put it online, and let others download it!
+Once you're ready, you're welcome to write to paraLine@sylde.net, in order to get your front end tool referenced on the paraLine web page.
+
+Please read paraLine.licence.txt for details about paraLine, usage, and redistribution.
+-->

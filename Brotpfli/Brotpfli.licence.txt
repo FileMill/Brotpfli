@@ -1,0 +1,48 @@
+Brotpfli licence, version 1.0.
+Usage, and redistribution of Brotpfli are, each of them, subject to the acceptation of all the terms of this licence agreement.
+
+Licence agreement between Sylde.net (owner of Brotpfli) and the user of Brotpfli -you-.
+Acceptation of this licence grants you the following rights:
+
+
+USAGE RIGHTS
+Brotpfli usage is free, for personal or commercial use.
+
+
+REDISTRIBUTION RIGHTS
+Brotpfli is free to redistribute.
+
+Redistribution is only allowed as a whole, with all Brotpfli files included:
+Brotpfli.exe
+Brotpfli.licence.txt
+
+For example, you may not redistribute the Brotpfli.exe file alone, but only with the other Brotpfli files, including this licence.
+
+Redistribution is only allowed if all the terms of this licence are respected.
+By redistributing other files alongside Brotpfli, you accept taking full responsibility for their redistribution, and that Sylde.net cannot be held responsible for any issue that may occur with that.
+
+
+MODIFICATION RIGHTS
+This licence does not grant you any modification rights.
+Brotpfli files should not be modified in any way, nor even renamed.
+Please contact@Sylde.net if you whish a customized version of Brotpfli.
+
+
+All other rights, concerning Brotpfli files, their names, and their contents, remain the exclusive property of Sylde.net.
+
+
+UPDATES
+The user agrees that the rights granted by this licence are only valid for a specific version of Brotpfli, and that using or redistributing another version of Brotpfli will require the acceptation of the accompanying licence.
+
+
+LIMITATION OF LIABILITY
+Brotpfli is provided as it is, without any warranty.
+In particular (but not exclusively), there are no warranties that Brotpfli is exempt of bugs.
+The acceptation of this licence by the user implies agreeing, for the user, to not issue any claim against Sylde.net (including, but not exclusively, in case of loss of data).
+
+
+PATENT CLAIMS
+The acceptation of this licence by the user implies agreeing, for the user, to not issue any patent claim against Sylde.net.
+
+
+Sylde.net is a company registered in France, with registration number 508876794.
